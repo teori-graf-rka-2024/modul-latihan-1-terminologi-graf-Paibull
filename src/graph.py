@@ -1,4 +1,5 @@
 import networkx as nx
+import matplotlib
 import matplotlib.pyplot as plt
 
 def create_graph(edges: list[tuple[int, int]]) -> nx.Graph:
